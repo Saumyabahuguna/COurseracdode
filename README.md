@@ -1,2 +1,2 @@
-# COurseracdode
+# Coursera code
 coursera repository
