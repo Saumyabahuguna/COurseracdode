@@ -23,6 +23,7 @@ color: black;
   font-weight: bold;
   text-shadow: 2px 2px 1px #222;
   margin-top: 0;
+ 
   margin-bottom: 0;
   line-height: 0;
 }
@@ -51,16 +52,20 @@ color: black;
   clear: both;
   margin-top: -40px;
 }
+
 section {
-position: absolute;
-   
+position: relative;
+  border-radius: 50px;
     border: 1px solid black;
         margin-top: 10px;
     margin-bottom: 15px;
       background-color: lightyellow;
      overflow: auto;
       height: 1000px;
+      border-collapse: separate;
      	}
+
+    
 /**OUR Menu**/
 #title{
 	border: 1px dashed #c4996c;
@@ -73,7 +78,10 @@ position: absolute;
 	 background-color: #c4996c;
 	 float:none;
 	 overflow: auto;
+
 }
+
+
 #text{
 	font-weight:normal;
 	font-family: 'cursive';
